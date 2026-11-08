@@ -37,7 +37,7 @@ namespace Tyuiu.ShakinVV.Sprint3.Task6.V11
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine($"Сумма делителей = {ds.GetSumTheDivisors(startValue, stopValue)}");
+            Console.WriteLine($"Кол-во делителей = {ds.GetSumTheDivisors(startValue, stopValue)}");
 
             Console.ReadKey();
         }
