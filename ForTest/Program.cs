@@ -1,19 +1,25 @@
-﻿namespace ForTest
+﻿//Tyuiu.ShakinVV.Sprint3.Task4.V26
+
+namespace ForTest
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            string str = "cdfgcc cfgc ctf";
-            foreach(char c in str)
+            int x;
+            double sp = 1;
+            int i = 0;
+            for (x = -2; x <= 2; x++)
             {
-                if (c == 'c')
+                if(x == 0)
                 {
-                    str = str.Replace(c, 'w');
+                    continue;
                 }
-
+                sp = sp * (3 * x + 1);
+                i++;
             }
-            Console.WriteLine(str);
+
+            Console.WriteLine(sp);
             Console.ReadKey();
         }
 
