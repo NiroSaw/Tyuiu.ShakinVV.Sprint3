@@ -21,5 +21,4 @@ namespace Tyuiu.ShakinVV.Sprint3.Task6.V11.Lib
             return count;
         }
     }
-    }
 }
