@@ -28,7 +28,7 @@ namespace Tyuiu.ShakinVV.Sprint3.Task3.V25.Lib
                     min = count;
                 }
             }
-            return (count);
+            return (min);
         }
     }
 }
